@@ -3,9 +3,9 @@ if Rails.env.production?
     config.fog_credentials = {
       # Configuration for Amazon S3
       :provider              => 'AWS',
-      :aws_access_key_id     => 'AKIAIBROSBHB3WWONXNQ',
-      :aws_secret_access_key => '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'
+      :aws_access_key_id     => 'AKIAJY7OK2BPUR5KXDRQ',
+      :aws_secret_access_key => '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'
     }
-    config.fog_directory     =  'camceren'
+    config.fog_directory     =  'volleyballbucket'
   end
 end
